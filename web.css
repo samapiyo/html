@@ -97,13 +97,13 @@
     }
     .navbar {
        display: flex;
+        
           justify-content: center;
-          gap: 15px;
-          margin: 20px 0;
-          padding: 10px;
-          background-color: #beca0e;
-          border-radius: 100px;
-          border: 5px solid #3c34b4;
+          flex-shrink: 1 ;
+         
+          margin: 10px 0;      
+         flex-wrap: wrap;
+         
           
     }
     .image-container {
@@ -113,5 +113,27 @@
       height: 300px;
       border-radius: 10px;
     }
-    
+    .welcome {
+     position: flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      font-size: 28px;
+      font-weight: bold;
+      color: red;
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .whole {
+     display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
+
   </style>
