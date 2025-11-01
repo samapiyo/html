@@ -79,7 +79,7 @@
     nav a {
       color: #35424a;
       text-decoration: none;
-      padding: 10px 15px;
+     
       border: 1px solid #35424a;
       border-radius: 5px;
       transition: background 0.3s;
@@ -137,5 +137,6 @@
     }
 
   </style>
+
 
 
